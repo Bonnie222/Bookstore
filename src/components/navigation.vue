@@ -67,11 +67,11 @@
 </script>
 <style scoped>
     /*底部导航*/
-	.mint-tabbar{
+	#navigation .mint-tabbar{
 		background-color: #F6F6F6;
 		color: #666666;
 	}
-	.mint-tabbar > .mint-tab-item.is-selected{
+	#navigation .mint-tabbar > .mint-tab-item.is-selected{
 		background-color: #F6F6F6;
 		color: #FF0000;
 	}
