@@ -2,23 +2,23 @@
 	<div id="navigation">
 		<mt-tabbar v-model="selected" fixed>
 		  <mt-tab-item id="home">
-		    <img slot="icon" src="">
+		    <i slot="icon" class="iconfont icon-shouye"></i>
 		    首页
 		  </mt-tab-item>
 		  <mt-tab-item id="sort">
-		    <img slot="icon" src="">
+		    <i slot="icon" class="iconfont icon-fenlei"></i>
 		    分类
 		  </mt-tab-item>
 		  <mt-tab-item id="interact">
-		    <img slot="icon" src="">
+		    <i slot="icon" class="iconfont icon-hudong"></i>
 		    互动
 		  </mt-tab-item>
 		  <mt-tab-item id="cart">
-		    <img slot="icon" src="">
+		    <i slot="icon" class="iconfont icon-gouwucheshoppingcart"></i>
 		    购物车
 		  </mt-tab-item>
 		  <mt-tab-item id="myself">
-		    <img slot="icon" src="">
+		    <i slot="icon" class="iconfont icon-20150825tubiaolianxizhuanhuan03"></i>
 		    我的
 		  </mt-tab-item>
 		</mt-tabbar>
@@ -74,6 +74,9 @@
 	#navigation .mint-tabbar > .mint-tab-item.is-selected{
 		background-color: #F6F6F6;
 		color: #FF0000;
+	}
+	#navigation .iconfont{
+		font-size:1.5rem;
 	}
 
 </style>

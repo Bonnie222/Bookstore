@@ -9,6 +9,7 @@ import VueResource from 'vue-resource'
 /*引入mintUI*/
 import MintUI from 'mint-ui'
 import 'mint-ui/lib/style.css'
+/*import './../static/style/iconfont.css'*/
 
 Vue.use(VueResource);
 Vue.use(MintUI);
