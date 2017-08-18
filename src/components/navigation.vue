@@ -5,11 +5,11 @@
 		    <i slot="icon" class="iconfont icon-shouye"></i>
 		    首页
 		  </mt-tab-item>
-		  <mt-tab-item id="sort">
+		  <mt-tab-item id="sort1">
 		    <i slot="icon" class="iconfont icon-fenlei"></i>
 		    分类
 		  </mt-tab-item>
-		  <mt-tab-item id="interact">
+		  <mt-tab-item id="interact" style="background-color:#f24932;color:#ffffff;">
 		    <i slot="icon" class="iconfont icon-hudong"></i>
 		    互动
 		  </mt-tab-item>
@@ -27,7 +27,7 @@
 		  <mt-tab-container-item id="home" >
 		    <my-home></my-home>
 		  </mt-tab-container-item>
-		  <mt-tab-container-item id="sort">
+		  <mt-tab-container-item id="sort1">
 		    <my-sort></my-sort>
 		  </mt-tab-container-item>
 		  <mt-tab-container-item id="interact">
@@ -44,7 +44,7 @@
 </template>
 <script>
 	import Home from '@/components/homepage/home'
-	import Sort from '@/components/classify/sort'
+	import Sort from '@/components/classify/sortbook'
 	import Interact from '@/components/reaction/interact'
 	import Cart from '@/components/shopping/cart'
 	import Myself from '@/components/mine/myself'

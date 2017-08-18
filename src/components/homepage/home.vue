@@ -1,14 +1,14 @@
 <template>
 	<div id="home">
 		<!--顶部导航-->
-		<mt-header title="">
+		<mt-header title="" fixed>
 		  <router-link to="/" slot="left">
-		     <i class="iconfont icon-shouye"></i>
+		     <i class="iconfont icon-fenlei1"></i>
 		     <br/>
 		     <span>分类</span>
 		  </router-link>
 		  <router-link to="/" slot="right">
-		    <i class="iconfont icon-shouye"></i>
+		     <i class="iconfont icon-kefu"></i>
 		     <br/>
 		     <span>客服</span>
 		  </router-link>
@@ -312,14 +312,20 @@
     /*顶部*/
 	#home .mint-header{
 		background-color: #FF3300;
+		padding-top:10px;
+		padding-bottom: 5px;
+		height: 55px
+
 	}
 	#home .mint-header a:-webkit-any-link{
+		display: inline-block;
 		text-align: center;
+		margin-top:5px;
 		width: 30%;
-		line-height: 14px;	
+		line-height: 16px;	
 	}
 	#home .mint-header .iconfont{
-		font-size:20px;
+		font-size:18px;
 	}
 	#home .mint-header span{
 		font-size:8px;
@@ -330,6 +336,7 @@
 	/*顶部轮播*/
 	#home .swipe{
      height: 9.375rem;
+     margin-top:55px;
 	}
 	#home .swipe img,
 	#home .newbookswipe img{

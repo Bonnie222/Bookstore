@@ -1,6 +1,19 @@
 <template>
-	<div>
-	这是hudong</div>
+	<div id="interact">
+	<i class="iconfont icon-wodeqianbao"></i>
+	
+	
+	
+	<i class="iconfont icon-yijianfankui"></i>
+	<i class="iconfont icon-aiguifanfile2"></i>
+	
+	收到收到
+	</div>
 </template>
 <script></script>
-<style></style>
+<style scoped>
+	#interact{
+		
+	}
+	
+</style>
