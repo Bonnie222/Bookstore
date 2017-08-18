@@ -3,10 +3,14 @@
 		<!--顶部导航-->
 		<mt-header title="">
 		  <router-link to="/" slot="left">
-		    <mt-button icon="back">分类</mt-button>
+		     <i class="iconfont icon-shouye"></i>
+		     <br/>
+		     <span>分类</span>
 		  </router-link>
 		  <router-link to="/" slot="right">
-		    <mt-button icon="back">客服</mt-button>
+		    <i class="iconfont icon-shouye"></i>
+		     <br/>
+		     <span>客服</span>
 		  </router-link>
 		</mt-header>
 
@@ -309,6 +313,20 @@
 	#home .mint-header{
 		background-color: #FF3300;
 	}
+	#home .mint-header a:-webkit-any-link{
+		text-align: center;
+		width: 30%;
+		line-height: 14px;	
+	}
+	#home .mint-header .iconfont{
+		font-size:20px;
+	}
+	#home .mint-header span{
+		font-size:8px;
+		margin: 0;
+		padding: 0;
+	}
+
 	/*顶部轮播*/
 	#home .swipe{
      height: 9.375rem;
