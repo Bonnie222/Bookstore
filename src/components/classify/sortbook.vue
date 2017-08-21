@@ -13,12 +13,14 @@
 
 			<!-- tab-container -->
 			<mt-tab-container v-model="selected">
-			  <mt-tab-container-item id="1">
+			  <mt-tab-container-item id="1">			    
 			    <div class="book">
-			    	<img src="./../../assets/homepage/sale1.jpg">
-			    	<div class="bookname">
-			    		<span>ssssss 知识</span>
-			    	</div>
+			    	<router-link to="/booklist">
+				    	<img src="./../../assets/homepage/sale1.jpg">
+				    	<div class="bookname">
+				    		<span>计算机科学理论与基础知识</span>
+				    	</div>
+			    	</router-link>
 			    </div>
 			    <div class="book">
 			    	<img src="./../../assets/homepage/sale1.jpg">
@@ -105,6 +107,7 @@
 </script>
 <style scoped>
 	#sortbook{
+		margin-bottom: 60px;
 		background: #ffffff;
 		overflow: hidden;
 	}
@@ -162,6 +165,7 @@
 		margin-bottom: 0; 
     }
     /*右边内容*/
+
 	#sortbook .mint-tab-container-item{
 		width: 100%;
 		overflow: hidden;
@@ -171,6 +175,10 @@
 		width: 23.3%;
 		padding:10px 5%;
 	}
+	#sortbook .mint-tab-container-item .book a:-webkit-any-link {
+    	color: inherit;
+    	text-decoration: none;
+    }
 	#sortbook .mint-tab-container-item .book img{
 		width: 100%;
 	}

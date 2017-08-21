@@ -3,12 +3,15 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import './rem2px.js'
 
 /*引入vue-resource*/
 import VueResource from 'vue-resource'
 /*引入mintUI*/
 import MintUI from 'mint-ui'
 import 'mint-ui/lib/style.css'
+
+
 
 Vue.use(VueResource);
 Vue.use(MintUI);

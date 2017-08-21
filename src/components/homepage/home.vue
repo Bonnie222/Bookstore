@@ -2,7 +2,7 @@
 	<div id="home">
 		<!--顶部导航-->
 		<mt-header title="" fixed>
-		  <router-link to="/" slot="left">
+		  <router-link to="/layout/sort" slot="left">
 		     <i class="iconfont icon-fenlei1"></i>
 		     <br/>
 		     <span>分类</span>
@@ -261,13 +261,13 @@
 				],
 				iconData:[
 				    {router:"/Mint_UI",text:"我的订单",iconUrl:require("./../../assets/homepage/wddd.png")},
-				    {router:"/Mint_UI",text:"我的收藏",iconUrl:require("./../../assets/homepage/wddd.png")},
+				    {router:"/Mint_UI",text:"我的收藏",iconUrl:require("./../../assets/homepage/wdsc.png")},
 				    {router:"/Mint_UI",text:"物流查询",iconUrl:require("./../../assets/homepage/wddd.png")},
 				    {router:"/Mint_UI",text:"领红包",iconUrl:require("./../../assets/homepage/wddd.png")},
-				    {router:"/Mint_UI",text:"特价书",iconUrl:require("./../../assets/homepage/wddd.png")},
-				    {router:"/Mint_UI",text:"按需印刷",iconUrl:require("./../../assets/homepage/wddd.png")},
+				    {router:"/Mint_UI",text:"特价书",iconUrl:require("./../../assets/homepage/tjs.png")},
+				    {router:"/Mint_UI",text:"按需印刷",iconUrl:require("./../../assets/homepage/axys.png")},
 				    {router:"/Mint_UI",text:"待付款",iconUrl:require("./../../assets/homepage/wddd.png")},
-				    {router:"/Mint_UI",text:"全部",iconUrl:require("./../../assets/homepage/wddd.png")}	
+				    {router:"/Mint_UI",text:"全部",iconUrl:require("./../../assets/homepage/qb.png")}	
 				],
 				newbookswipe:[
 					{imgUrl:require("./../../assets/homepage/11.jpg")},
@@ -308,6 +308,7 @@
 <style scoped>
     #home{
     	background: #F6F7F7;
+    	margin-bottom: 60px;
     }
     /*顶部*/
 	#home .mint-header{
@@ -315,7 +316,6 @@
 		padding-top:10px;
 		padding-bottom: 5px;
 		height: 55px
-
 	}
 	#home .mint-header a:-webkit-any-link{
 		display: inline-block;

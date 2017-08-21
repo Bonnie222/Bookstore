@@ -1,82 +1,79 @@
 <template>
 	<div id="navigation">
-		<mt-tabbar v-model="selected" fixed>
+		<mt-tabbar v-model="selected" fixed> 
 		  <mt-tab-item id="home">
-		    <i slot="icon" class="iconfont icon-shouye"></i>
-		    首页
-		  </mt-tab-item>
+		  	<router-link to="/layout/home">	
+		      <p><i slot="icon" class="iconfont icon-shouye"></i></p>
+		      <p>首页</p>		     	
+		    </router-link>	   
+		  </mt-tab-item> 
 		  <mt-tab-item id="sort1">
-		    <i slot="icon" class="iconfont icon-fenlei"></i>
-		    分类
+		  	<router-link to="/layout/sort">	
+		      <p><i slot="icon" class="iconfont icon-fenlei"></i></p>
+		      <p>分类</p>		     	
+		    </router-link>			    
 		  </mt-tab-item>
 		  <mt-tab-item id="interact" style="background-color:#f24932;color:#ffffff;">
-		    <i slot="icon" class="iconfont icon-hudong"></i>
-		    互动
+		    <router-link to="/layout/interact">	
+		      <p><i slot="icon" class="iconfont icon-hudong"></i></p>
+		      <p>互动</p>		     	
+		    </router-link>	  
 		  </mt-tab-item>
 		  <mt-tab-item id="cart">
-		    <i slot="icon" class="iconfont icon-gouwucheshoppingcart"></i>
-		    购物车
+		  	<router-link to="/layout/cart">	
+		      <p><i slot="icon" class="iconfont icon-gouwucheshoppingcart"></i></p>
+		      <p>购物车</p>		     	
+		    </router-link> 		    
 		  </mt-tab-item>
 		  <mt-tab-item id="myself">
-		    <i slot="icon" class="iconfont icon-20150825tubiaolianxizhuanhuan03"></i>
-		    我的
+		  	<router-link to="/layout/myself">	
+		      <p><i slot="icon" class="iconfont icon-20150825tubiaolianxizhuanhuan03"></i></p>
+		      <p>我的</p>		     	
+		    </router-link>		    		    
 		  </mt-tab-item>
 		</mt-tabbar>
-
-		<mt-tab-container v-model="selected" style="padding-bottom:55px">
-		  <mt-tab-container-item id="home" >
-		    <my-home></my-home>
-		  </mt-tab-container-item>
-		  <mt-tab-container-item id="sort1">
-		    <my-sort></my-sort>
-		  </mt-tab-container-item>
-		  <mt-tab-container-item id="interact">
-			<my-interact></my-interact>
-		  </mt-tab-container-item>
-		  <mt-tab-container-item id="cart">
-		    <my-cart></my-cart>
-		  </mt-tab-container-item>
-		  <mt-tab-container-item id="myself">
-		    <my-self></my-self>
-		  </mt-tab-container-item>
-		</mt-tab-container>
 	</div>
 </template>
 <script>
-	import Home from '@/components/homepage/home'
-	import Sort from '@/components/classify/sortbook'
-	import Interact from '@/components/reaction/interact'
-	import Cart from '@/components/shopping/cart'
-	import Myself from '@/components/mine/myself'
 	export default{
 		name:'navigation',
-		components:{ 
-			'my-home':Home,
-			'my-sort':Sort,
-			'my-interact':Interact,
-			'my-cart':Cart,
-			'my-self':Myself
-		},
+		//components:{ 
+		// 	'my-home':Home,
+		// 	'my-sort':Sort,
+		// 	'my-interact':Interact,
+		// 	'my-cart':Cart,
+		// 	'my-self':Myself
+		// },
 		data(){
 			return{
 				selected:'home'
-
 			}
 		}
+
 	}
 </script>
 <style scoped>
     /*底部导航*/
+    #navigation p{
+    	margin: 0;
+    	padding: 0;
+    }
+    #navigation a:-webkit-any-link {
+    	display: block;
+    	color: inherit;
+    	text-decoration: none;
+    	line-height: 16px;
+    }
 	#navigation .mint-tabbar{
 		background-color: #F6F6F6;
 		color: #666666;
+		
 	}
 	#navigation .mint-tabbar > .mint-tab-item.is-selected{
 		background-color: #F6F6F6;
 		color: #FF0000;
 	}
 	#navigation .iconfont{
-		font-size:1.5rem;
+		font-size:24px;
 	}
-
 </style>

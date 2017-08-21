@@ -2,7 +2,7 @@
 	<div id="myself">
 		<!--顶部-->
 		<mt-header title="我" fixed>
-		  <router-link to="" slot="left">
+		  <router-link to="/about" slot="left">
 		     <i class="iconfont icon-jinggao"></i>
 		  </router-link>
 		</mt-header>
@@ -116,6 +116,7 @@
 		padding-bottom: 5px;
 		height: 55px;
 		font-size:18px;
+		border-bottom: 1px solid #c2c2c2;
 	}
 	#myself .mint-header .iconfont{
 		font-size:22px;
