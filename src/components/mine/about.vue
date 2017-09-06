@@ -9,7 +9,7 @@
 	</div>
 </template>
 <script></script>
-<style>
+<style scoped>
 	#about  a:-webkit-any-link{
 		text-decoration: none;
 		color: inherit;

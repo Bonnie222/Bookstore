@@ -37,13 +37,6 @@
 <script>
 	export default{
 		name:'navigation',
-		//components:{ 
-		// 	'my-home':Home,
-		// 	'my-sort':Sort,
-		// 	'my-interact':Interact,
-		// 	'my-cart':Cart,
-		// 	'my-self':Myself
-		// },
 		data(){
 			return{
 				selected:'home'
@@ -67,7 +60,6 @@
 	#navigation .mint-tabbar{
 		background-color: #F6F6F6;
 		color: #666666;
-		
 	}
 	#navigation .mint-tabbar > .mint-tab-item.is-selected{
 		background-color: #F6F6F6;

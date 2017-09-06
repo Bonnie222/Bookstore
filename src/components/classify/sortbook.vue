@@ -1,8 +1,15 @@
 <template>
 	<div id="sortbook">
 		<!--顶部导航-->
-		<div class="header">
-			<mt-button>搜索</mt-button>
+		<!-- <div class="header">
+			<input type="text" name="search" placeholder="搜索"/>
+		</div> -->
+		<div class="mint-searchbar">
+			<div class="mint-searchbar-inner">
+				<i class="mintui mintui-search"></i>
+				<input type="search" placeholder="搜索" class="mint-searchbar-core">
+				<a class="mint-searchbar-cancel">cancel</a>
+			</div>
 		</div>
 		
 		<!--选项卡-->
@@ -113,20 +120,18 @@
 	}
     
     /*顶部*/
-    #sortbook .header{
+    #sortbook .mint-searchbar{
+    	background-color: #ffffff;
+    	border-bottom: 1px solid #c3c3c3;
+    }
+    /*#sortbook .header{
     	position: fixed;
     	top:0;
     	left: 0;
     	background:#ffffff;
     	width: 100%;
     	z-index: 99;
-		/*-webkit-box-align: center;
-	    -ms-flex-align: center;
-	    align-items: center;
-	    box-sizing: border-box;
-	    display: -webkit-box;
-	    display: -ms-flexbox;
-	    display: flex;*/
+
 	    font-size: 14px;
     	padding-top:9px;
 		padding-left: 10px;
@@ -136,12 +141,16 @@
 		border-bottom:1px solid #cccccc;
 	    text-align: center;
     }
+    #sortbook .header input{
+    	height: 25px;
+    	width: 200px;
+    }*/
+
     #sortbook .mint-button--default{
     	box-shadow: none;
     }
 
 	#sortbook .container{
-		margin-top:55px;
 		width: 100%;
 	}
 	/*左边选项*/

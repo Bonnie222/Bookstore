@@ -70,7 +70,7 @@
 		
 	</div>
 </template>
-<script>
+<script scoped>
     import Vue from 'vue';
 
 	export default{

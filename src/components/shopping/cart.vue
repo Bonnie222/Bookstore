@@ -26,7 +26,7 @@
 		}
 	}
 </script>
-<style scoped>
+<style>
 	#cart{
 		background: #F6F7F7;
 		margin-bottom: 60px;
@@ -52,7 +52,7 @@
 		background-color: #F6F7F7;
 	}
 	#cart .mint-checkbox-input:checked + .mint-checkbox-core{
-		background-color: #ff3300 ;
+		background-color: #ff3300;
     	border-color:#ff3300;
 	}
 </style>

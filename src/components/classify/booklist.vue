@@ -10,7 +10,13 @@
 		<mt-search  v-model="value"  cancel-text="cancel"  placeholder="搜索"></mt-search>
 
 		<div class="book">
-			dfd
+			<div class="bookintro">
+				<img src="./../../assets/homepage/sale1.jpg">
+				<div class="bookdesc">
+					<span class="bookname">深度学习与计算机视觉：算法原理、框架应用于代码实现</span>
+					<span class="bookprice">￥55.30(7.0折)</span>
+				</div>
+			</div>
 		</div>
 	</div>
 </template>
@@ -49,7 +55,32 @@
 		margin-top: 55px;
 	}
 	#booklist .book{
-		background-color: yellow;
 		/*margin-top:107px;*/
+		border-bottom: 1px solid #c2c2c2;
+	}
+
+	#booklist .bookintro{
+		width: 100%;
+		padding:10px 2.5%;
+		overflow: hidden;
+	}
+	#booklist .bookintro img{
+		width: 25%;
+		float: left;
+	}
+	#booklist .bookintro .bookdesc{
+		width: 65%;
+		padding: 0 2.5%;
+		float: left;
+		font-size: 16px;
+	}
+	#booklist .bookintro .bookdesc .bookname{
+		display: block;
+		padding-bottom:60px;
+	}
+	#booklist .bookintro .bookdesc .bookprice{
+		display: block;
+		font-size: 14px;
+		color: #ff3300;
 	}
 </style>

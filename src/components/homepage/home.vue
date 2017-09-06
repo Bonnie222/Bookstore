@@ -307,93 +307,88 @@
 </script>
 <style scoped>
     #home{
-    	background: #F6F7F7;
-    	margin-bottom: 60px;
-    }
-    /*顶部*/
-	#home .mint-header{
-		background-color: #FF3300;
-		padding-top:10px;
-		padding-bottom: 5px;
-		height: 55px
+     background: #F6F7F7;
+     margin-bottom: 3rem;
 	}
-	#home .mint-header a:-webkit-any-link{
-		display: inline-block;
-		text-align: center;
-		margin-top:5px;
-		width: 30%;
-		line-height: 16px;	
+	/*顶部*/
+	 #home .mint-header{
+	     background-color: #FF3300;
+	     padding-top:0.5rem;
+	     padding-bottom: 0.25rem;
+	     height: 2.75rem 
 	}
-	#home .mint-header .iconfont{
-		font-size:18px;
+	 #home .mint-header a:-webkit-any-link{
+	     display: inline-block;
+	     text-align: center;
+	     margin-top:0.25rem;
+	     width: 30%;
+	     line-height: 0.8rem;
 	}
-	#home .mint-header span{
-		font-size:8px;
-		margin: 0;
-		padding: 0;
+	 #home .mint-header .iconfont{
+	     font-size:0.9rem;
 	}
-
+	 #home .mint-header span{
+	     font-size:0.4rem;
+	     margin: 0;
+	     padding: 0;
+	}
 	/*顶部轮播*/
-	#home .swipe{
-     height: 9.375rem;
-     margin-top:55px;
+	 #home .swipe{
+	     height: 9.375rem;
+	     margin-top:2.75rem;
 	}
-	#home .swipe img,
-	#home .newbookswipe img{
-		width: 100%;
-		height: 100%;
+	 #home .swipe img, #home .newbookswipe img{
+	     width: 100%;
+	     height: 100%;
 	}
-
 	/*轮播下的按钮*/
-	#home .middle-btn{
-		width: 100%;
-		background-color: #FFFFFF;
-		overflow: hidden;
+	 #home .middle-btn{
+	     width: 100%;
+	     background-color: #FFFFFF;
+	     overflow: hidden;
 	}
-	#home .btn-div{
-		float: left;
-		width: 25%;
-		padding:0.625rem 0;
-		text-align: center;
+	 #home .btn-div{
+	     float: left;
+	     width: 25%;
+	     padding:0.625rem 0;
+	     text-align: center;
 	}
-	#home .btn-div img{
-		width:1.875rem;
- 		height: 1.875rem; 
+	 #home .btn-div img{
+	     width:1.875rem;
+	     height: 1.875rem;
 	}
-	#home .btn-div p{
-		margin-top: 0;
-		font-size:0.75rem;
-		color: #959595;
+	 #home .btn-div p{
+	     margin-top: 0;
+	     font-size:0.75rem;
+	     color: #959595;
 	}
-	#home a:-webkit-any-link {
-    	text-decoration: none;
+	 #home a:-webkit-any-link {
+	     text-decoration: none;
 	}
-
 	/*新书预售*/
-	#home .newbooksale{
-		background-color:#FFFFFF;
-		margin: 7px 0;
-		line-height: 22px;
+	 #home .newbooksale{
+	     background-color:#FFFFFF;
+	     margin: 0.35rem 0;
+	     line-height: 1.1rem;
 	}
-	#home .newbooksale .sale_title{
-		padding: 5px 3px;
+	 #home .newbooksale .sale_title{
+	     padding: 0.25rem 0.15rem;
 	}
-	#home .newbooksale .more{
-		float:right;
-		color:#969696;
-		font-size:13px;
-		padding-right: 20px;
+	 #home .newbooksale .more{
+	     float:right;
+	     color:#969696;
+	     font-size:0.65rem;
+	     padding-right: 1rem;
 	}
-	#home .newbookswipe{
-		height: 100px;
-		padding: 0 5px;
+	 #home .newbookswipe{
+	     height: 5rem;
+	     padding: 0 0.25rem;
 	}
-
 	/*特价书，即时抢购*/
-	#home .specialbooksale{
-     	background-color: #FFFFFF;
+	 #home .specialbooksale{
+	     background-color: #FFFFFF;
 	}
-	#home .specialbooksale .mint-navbar{
+	 #home .specialbooksale .mint-navbar{
 	     color: #000000;
 	     padding: 0 0.3125rem;
 	     margin-bottom:0.3125rem;
@@ -417,162 +412,150 @@
 	     background-color: #FF3300;
 	     color: #FFFFFF;
 	}
-
 	/*选项卡列表*/
-	 #home .specialbooksale a:-webkit-any-link,
-	 #home .booksort a:-webkit-any-link{
+	 #home .specialbooksale a:-webkit-any-link, #home .booksort a:-webkit-any-link{
 	     display:block;
 	     width:32.7%;
 	     background:#FFFFFF;
 	     float:left;
 	     border:1px solid #e0e0e0;
 	}
-	 #home .specialbooksale .spediv,
-	 #home .booksort .spediv{
+	 #home .specialbooksale .spediv, #home .booksort .spediv{
 	     width:100%;
 	     background-color:#FFFFFF;
 	     text-align:center;
 	}
-	 #home .specialbooksale .spediv img,
-	 #home .booksort .spediv img{
+	 #home .specialbooksale .spediv img, #home .booksort .spediv img{
 	     display:block;
 	     width:70%;
-	     height:8.4375rem;
+	     height:6rem;
 	     margin-left:13.5%;
 	     margin-top:0.625rem;
 	     text-align:none;
 	}
-	 #home .specialbooksale .spediv .desc,
-	 #home .booksort .spediv .desc{
+	 #home .specialbooksale .spediv .desc, #home .booksort .spediv .desc{
 	     margin-top:0.3125rem;
 	     margin-bottom:0;
-	     font-size:0.75rem;
+	     font-size:0.65rem;
 	     color:#333333;
 	     overflow:hidden;
-	     height:2.0625rem;
+	     height:1.75rem;
 	}
-	 #home .specialbooksale .spediv .price,
-	 #home .booksort .spediv .price{
-	     font-size:0.875rem;
+	 #home .specialbooksale .spediv .price, #home .booksort .spediv .price{
+	     font-size:0.75rem;
 	     color:#333333;
 	     margin-top:0.125rem;
 	}
-	 #home .specialbooksale .spediv .price span:nth-child(1),
-	 #home .booksort .spediv .price span:nth-child(1){
+	 #home .specialbooksale .spediv .price span:nth-child(1), #home .booksort .spediv .price span:nth-child(1){
 	     color:#ff3300;
 	}
-	 #home .specialbooksale .spediv .price span:nth-child(2),
-	 #home .booksort .spediv .price span:nth-child(2){
+	 #home .specialbooksale .spediv .price span:nth-child(2), #home .booksort .spediv .price span:nth-child(2){
 	     text-decoration:line-through;
 	     color:#999;
 	}
-
 	/*图书分类*/
-	#home .booksort{
-		background:#FFFFFF;
+	 #home .booksort{
+	     background:#FFFFFF;
 	}
-	#home .booksort .mint-navbar{
+	 #home .booksort .mint-navbar{
 	     color: #000000;
 	}
-	#home .booksort .mint-tab-item{
-	     height: 5px;
+	 #home .booksort .mint-tab-item{
+	     height: 0.25rem;
 	     overflow:hidden;
-	     padding:12px 0;
+	     padding:0.6rem 0;
 	}
 	 #home .booksort .mint-navbar .mint-tab-item.is-selected{
 	     color: #0085cd;
 	     border:none;
 	     text-decoration:underline;
 	}
-
 	/*出版社专区&作者专区*/
-	#home .publish{
-		background-color:#FFFFFF;
+	 #home .publish{
+	     background-color:#FFFFFF;
 	}
-	#home .publish .title,
-	#home .actor .title{
-		background-color:#FFFFFF;
-		padding: 5px 3px;
+	 #home .publish .title, #home .actor .title{
+	     background-color:#FFFFFF;
+	     padding: 0.25rem 0.15rem;
 	}
-	#home .publish .more,
-	#home .actor .more{
-		float:right;
-		color:#969696;
-		font-size:13px;
-		padding-right: 20px;
+	 #home .publish .more, #home .actor .more{
+	     float:right;
+	     color:#969696;
+	     font-size:0.65rem;
+	     padding-right: 1rem;
 	}
-	#home .publish .contain{
-		overflow:hidden;
+	 #home .publish .contain{
+	     overflow:hidden;
 	}
-	#home .publish .contain a:-webkit-any-link{
-		width:45%;
-		float:left;
-	    border:1px solid #e0e0e0;
-	    padding:10px 2.1%;
-	    overflow:hidden;
+	 #home .publish .contain a:-webkit-any-link{
+	     width:45%;
+	     float:left;
+	     border:1px solid #e0e0e0;
+	     padding:0.5rem 2.1%;
+	     overflow:hidden;
 	}
-	#home .publish .publish_contain{
-		width:100%;
-		float:left;
-		overflow:hidden;
+	 #home .publish .publish_contain{
+	     width:100%;
+	     float:left;
+	     overflow:hidden;
 	}
-	#home .publish .publish_contain img{
-		width:40%;
-		float:left;
-		margin-right:5px;
+	 #home .publish .publish_contain img{
+	     width:40%;
+	     float:left;
+	     margin-right:0.25rem;
 	}
-	#home .publish .publish_contain .publish-div{
-		width:55%;
-		float:right;
-		overflow:hidden;
+	 #home .publish .publish_contain .publish-div{
+	     width:55%;
+	     float:right;
+	     overflow:hidden;
 	}
-	#home .publish .publish_contain span:nth-child(1){
-		font-weight:bold;	
-		font-size:13px;
-		color:#2c3e50;
-		margin:5px 0;
-		float:right;
+	 #home .publish .publish_contain span:nth-child(1){
+	     font-weight:bold;
+	     font-size:0.65rem;
+	     color:#2c3e50;
+	     margin:0.25rem 0;
+	     float:right;
 	}
-	#home .publish .publish_contain span:nth-child(2){
-		color:#969696;
-		font-size:12px;
-		margin:0;
-		float:right;	
+	 #home .publish .publish_contain span:nth-child(2){
+	     color:#969696;
+	     font-size:0.6rem;
+	     margin:0;
+	     float:right;
 	}
-	#home .actor{
-		margin-top:10px;
-		margin-bottom:10px;
-		background-color:#FFFFFF;
+	 #home .actor{
+	     margin-top:0.5rem;
+	     margin-bottom:0.5rem;
+	     background-color:#FFFFFF;
 	}
-	#home .actor .actor_contain{
-		width:100% ; 
-		overflow:hidden;
-		border-top:1px solid #e0e0e0;
+	 #home .actor .actor_contain{
+	     width:100% ;
+	     overflow:hidden;
+	     border-top:0.05rem solid #e0e0e0;
 	}
-	#home .actor .actor_contain a:-webkit-any-link{
-		width:100%;
+	 #home .actor .actor_contain a:-webkit-any-link{
+	     width:100%;
 	}
-	#home .actor .actor_contain img{
-		width:30%;
-		float:left;
+	 #home .actor .actor_contain img{
+	     width:30%;
+	     float:left;
 	}
-	#home .actor .actor_contain .actor-div{
-		width:60%;
-		float:right ;
-		overflow:hidden;
-		padding:0 5%;
-		padding-top:20px;
+	 #home .actor .actor_contain .actor-div{
+	     width:60%;
+	     float:right ;
+	     overflow:hidden;
+	     padding:0 5%;
+	     padding-top:1rem;
 	}
-	#home .actor .actor_contain span:nth-child(1){
-		font-size:13px;
-		color:#2c3e50;
-		margin:15px 0;
-		float:right;
+	 #home .actor .actor_contain span:nth-child(1){
+	     font-size:0.65rem;
+	     color:#2c3e50;
+	     margin:0.75rem 0;
+	     float:right;
 	}
-	#home .actor .actor_contain span:nth-child(2){
-		color:#969696;
-		font-size:12px;
-		margin:0;
-		float:right;	
+	 #home .actor .actor_contain span:nth-child(2){
+	     color:#969696;
+	     font-size:0.6rem;
+	     margin:0;
+	     float:right;
 	}
  </style>
